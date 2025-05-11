@@ -12,8 +12,6 @@ void setup() {
   setupMicrophone(PIN_MICROPHONE);
   setupLightSensor(PIN_LIGHT_SENSOR);
 
-  setupLCD();
-
   println("* Fetchng RTC time");
   char *fileName = rtcUniqueFileName();
 
